@@ -1,0 +1,67 @@
+
+
+
+*{
+padding: 0;
+margin: 0;
+
+}
+
+header{
+
+display: flex;
+flex-direction: row;
+ align-items: center; 
+ justify-content: space-between;
+  padding: 0 7%;
+ /* 0 and 7% mean = padding-right: 7%; + padding-left: 7%;*/
+    height: 10vh;
+}
+
+#logo a{
+float: left;
+padding-left: 7px;
+text-decoration: none;
+}
+
+
+nav ul{
+   
+display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li a{
+text-decoration: none;
+  padding: 0 15px;
+display: block;
+}
+
+/*diplay block so that words are organized when screen is small*/
+
+main{
+
+display: flex;
+
+ align-items: center; 
+ justify-content: center;
+ 
+ flex-direction: column;
+ height:90vh;
+ 
+/* 100vh is 100% and responsive. you have to set it so flex works to center a div*/
+
+}
+
+main section{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+main section a{
+margin: 15px;
+}
+
